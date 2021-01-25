@@ -19,6 +19,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
+          <factory-entry name="work" value="c3ebf1ec-a678-444a-8fba-a808bf804a21" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -49,8 +50,6 @@
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.27" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:2.4.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" level="project" />
     <orderEntry type="library" name="Maven: io.micrometer:micrometer-core:1.6.3" level="project" />
     <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
@@ -148,5 +147,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt:0.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" level="project" />
   </component>
 </module>
