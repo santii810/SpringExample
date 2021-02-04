@@ -1,10 +1,10 @@
-package com.sgomez.work;
+package com.sgomez.example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorkApplicationTests {
+class ExampleApplicationTests {
 
     @Test
     void contextLoads() {

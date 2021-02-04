@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sgomez</groupId>
-    <artifactId>work</artifactId>
+    <artifactId>example</artifactId>
     <version>0.0.1</version>
-    <name>work</name>
+    <name>example</name>
     <description>Attendance Entries registry</description>
     <properties>
         <java.version>11</java.version>

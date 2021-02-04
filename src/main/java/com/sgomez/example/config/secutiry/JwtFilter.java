@@ -1,7 +1,7 @@
-package com.sgomez.work.config.secutiry;
+package com.sgomez.example.config.secutiry;
 
 import com.google.gson.JsonObject;
-import com.sgomez.work.service.LoginService;
+import com.sgomez.example.service.LoginService;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.core.Authentication;

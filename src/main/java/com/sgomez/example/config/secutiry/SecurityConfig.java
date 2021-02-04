@@ -1,6 +1,6 @@
-package com.sgomez.work.config.secutiry;
+package com.sgomez.example.config.secutiry;
 
-import com.sgomez.work.service.LoginService;
+import com.sgomez.example.service.LoginService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.sgomez.work.api;
+package com.sgomez.example.api;
 
-import com.sgomez.work.api.model.UserResponse;
-import com.sgomez.work.service.UserService;
+import com.sgomez.example.api.model.UserResponse;
+import com.sgomez.example.service.UserService;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;

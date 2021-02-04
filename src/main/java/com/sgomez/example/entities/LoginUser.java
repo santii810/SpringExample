@@ -1,4 +1,4 @@
-package com.sgomez.work.entities;
+package com.sgomez.example.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

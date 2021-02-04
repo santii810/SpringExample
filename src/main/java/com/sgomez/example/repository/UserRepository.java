@@ -1,7 +1,7 @@
-package com.sgomez.work.repository;
+package com.sgomez.example.repository;
 
-import com.sgomez.work.entities.LoginUser;
-import com.sgomez.work.entities.User;
+import com.sgomez.example.entities.LoginUser;
+import com.sgomez.example.entities.User;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface UserRepository  extends PagingAndSortingRepository<User, String> {

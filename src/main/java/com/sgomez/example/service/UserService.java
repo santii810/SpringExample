@@ -1,10 +1,10 @@
-package com.sgomez.work.service;
+package com.sgomez.example.service;
 
 
-import com.sgomez.work.api.model.UserResponse;
-import com.sgomez.work.exceptions.ResourceNotFoundException;
-import com.sgomez.work.repository.UserRepository;
-import com.sgomez.work.service.mapper.UserMapper;
+import com.sgomez.example.api.model.UserResponse;
+import com.sgomez.example.exceptions.ResourceNotFoundException;
+import com.sgomez.example.repository.UserRepository;
+import com.sgomez.example.service.mapper.UserMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ public class UserService {
 
 
     public UserResponse findById(String login) {
-        logger.info("First log");
+        logger.info("Find user {}", login);
         return userRepository.findById(login)
                 .map(UserMapper::entityToDto)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "login", login));

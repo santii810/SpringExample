@@ -1,7 +1,7 @@
-package com.sgomez.work.service.mapper;
+package com.sgomez.example.service.mapper;
 
-import com.sgomez.work.api.model.UserResponse;
-import com.sgomez.work.entities.User;
+import com.sgomez.example.api.model.UserResponse;
+import com.sgomez.example.entities.User;
 
 public class UserMapper {
     public static UserResponse entityToDto(User user) {

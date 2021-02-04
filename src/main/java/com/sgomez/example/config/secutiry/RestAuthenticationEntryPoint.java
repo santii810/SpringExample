@@ -1,4 +1,4 @@
-package com.sgomez.work.config.secutiry;
+package com.sgomez.example.config.secutiry;
 
 import com.google.gson.JsonObject;
 import org.springframework.security.core.AuthenticationException;

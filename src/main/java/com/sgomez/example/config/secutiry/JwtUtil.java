@@ -1,4 +1,4 @@
-package com.sgomez.work.config.secutiry;
+package com.sgomez.example.config.secutiry;
 
 import com.google.gson.Gson;
 import io.jsonwebtoken.Jwts;

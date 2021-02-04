@@ -1,4 +1,4 @@
-package com.sgomez.work.api.model;
+package com.sgomez.example.api.model;
 
 import lombok.Data;
 

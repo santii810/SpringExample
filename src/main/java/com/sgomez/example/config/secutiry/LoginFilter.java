@@ -1,7 +1,7 @@
-package com.sgomez.work.config.secutiry;
+package com.sgomez.example.config.secutiry;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sgomez.work.entities.LoginUser;
+import com.sgomez.example.entities.LoginUser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;

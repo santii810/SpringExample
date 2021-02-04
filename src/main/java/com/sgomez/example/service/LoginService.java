@@ -1,7 +1,7 @@
-package com.sgomez.work.service;
+package com.sgomez.example.service;
 
-import com.sgomez.work.entities.LoginUser;
-import com.sgomez.work.repository.UserRepository;
+import com.sgomez.example.entities.LoginUser;
+import com.sgomez.example.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

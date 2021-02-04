@@ -1,2 +1,2 @@
-# WorkJournal
+# Example application
  
