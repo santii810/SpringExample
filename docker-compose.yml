@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  example-server:
+    build:
+      context: .
+      dockerfile: dockerfiles/backend/Dockerfile
+    ports:
+      - "8081:8081"
+    restart: always
+#    environment:
+#      SPRING_DATASOURCE_URL: jdbc:mysql://5de8784.online-server.cloud:3306/trabajo
+#      SPRING_DATASOURCE_USERNAME: trabajo
+#      SPRING_DATASOURCE_PASSWORD: rMH2lb9Be4$o
+
