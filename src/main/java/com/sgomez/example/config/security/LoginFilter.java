@@ -1,4 +1,4 @@
-package com.sgomez.example.config.secutiry;
+package com.sgomez.example.config.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sgomez.example.entities.LoginUser;

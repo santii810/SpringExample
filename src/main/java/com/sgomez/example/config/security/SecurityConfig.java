@@ -1,4 +1,4 @@
-package com.sgomez.example.config.secutiry;
+package com.sgomez.example.config.security;
 
 import com.sgomez.example.service.LoginService;
 import org.slf4j.Logger;
@@ -34,6 +34,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authenticationEntryPoint(restAuthenticationEntryPoint)
                 .and().authorizeRequests()
                 .antMatchers("/login").permitAll() //Permite acceso al método login
+                .antMatchers("/v3/api-docs").permitAll() //Permite acceso al json de swagger
+                .antMatchers("/swagger-ui.html").permitAll() //Permite acceso a swagger
+                .antMatchers("/actuator/**").permitAll()
+                .antMatchers("/v2/api-docs", "/swagger-resources/configuration/ui", "/swagger-resources", "/swagger-resources/configuration/security", "/swagger-ui.html", "/webjars/**", "/swagger-ui/**", "/v3/api-docs/**").permitAll()
                 .anyRequest().authenticated() //Cualquier otra peticion requiere autenticacion
                 .and()
                 // Las peticiones /login pasaran previamente por este filtro
