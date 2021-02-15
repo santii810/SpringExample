@@ -18,7 +18,7 @@ public class UserApi {
     UserService userService;
 
     @RequestMapping(path = "/{login}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public UserResponse getAllAttendances(@PathVariable("login") String login, Pageable inputPage) throws NotFoundException {
+    public UserResponse findUserById(@PathVariable("login") String login) {
         return userService.findById(login);
     }
 }
